@@ -1,0 +1,20 @@
+{
+  "ui": {
+    "theme": "light_theme",
+    "font_size": 12,
+    "font_family": "Courier"
+  },
+  "editor": {
+    "tab_size": 4,
+    "wrap_text": false,
+    "show_line_numbers": true,
+    "syntax_highlighting": true
+  },
+  "notifications": {
+    "enable_notifications": true,
+    "notification_sound": true
+  },
+  "privacy": {
+    "send_usage_stats": false
+  }
+}

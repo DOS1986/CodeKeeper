@@ -1,0 +1,31 @@
+{
+  "keywords": [
+    "False", "None", "True", "and", "as", "assert", "async", "await", "break", "class", "continue",
+    "def", "del", "elif", "else", "except", "finally", "for", "from", "global", "if", "import",
+    "in", "is", "lambda", "nonlocal", "not", "or", "pass", "raise", "return", "try", "while",
+    "with", "yield"
+  ],
+  "builtins": [
+    "abs", "dict", "help", "min", "setattr", "all", "dir", "hex", "next", "slice", "any",
+    "divmod", "id", "object", "sorted", "ascii", "enumerate", "input", "oct", "staticmethod",
+    "bin", "eval", "int", "open", "str", "bool", "exec", "isinstance", "ord", "sum", "bytearray",
+    "filter", "issubclass", "pow", "super", "bytes", "float", "iter", "print", "tuple",
+    "callable", "format", "len", "property", "type", "chr", "frozenset", "list", "range",
+    "vars", "classmethod", "getattr", "locals", "repr", "zip", "compile", "globals", "map",
+    "reversed", "__import__", "complex", "hasattr", "max", "round", "delattr", "hash", "memoryview",
+    "set"
+  ],
+  "comments": {
+    "single_line": "#",
+    "multi_line_start": "'''",
+    "multi_line_end": "'''"
+  },
+  "strings": {
+    "single_quotes": "'",
+    "double_quotes": "\"",
+    "triple_quotes": "'''"
+  },
+  "decorators": {
+    "start": "@"
+  }
+}

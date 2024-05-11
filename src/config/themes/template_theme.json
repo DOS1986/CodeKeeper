@@ -1,0 +1,24 @@
+{
+  "theme_info": {
+    "name": "",
+    "author": "",
+    "version": "",
+    "last_modified": "",
+    "description": ""
+  },
+  "colors": {
+    "background": "",
+    "foreground": "",
+    "primary": "",
+    "secondary": "",
+    "error": "",
+    "divider": "",
+    "button": {
+    }
+  },
+  "fonts": {
+    "default":[]
+  },
+  "ttkStyles": {
+  }
+}

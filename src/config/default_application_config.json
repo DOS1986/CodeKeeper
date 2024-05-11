@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "CodeKeeper",
+    "version": "0.1",
+    "author": "David Southwood"
+  },
+  "database": {
+    "default_path": "~/.CodeKeeper/data",
+    "backup_on_exit": true
+  },
+  "updates": {
+    "check_on_startup": true,
+    "update_url": "https://api.github.com/DOS1986/CodeKeeper/releases/latest",
+    "download_path": "~/CodeKeeper/updates"
+  },
+  "features": {
+    "syntax_highlighting": true,
+    "auto_complete": true,
+    "cloud_sync": {
+      "enabled": false,
+      "provider": "dropbox",
+      "access_token": ""
+    }
+  },
+  "network": {
+    "proxy_enabled": false,
+    "proxy_settings": {
+      "host": "",
+      "port": "",
+      "username": "",
+      "password": ""
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "theme_info": {
+    "name": "Dark Theme",
+    "author": "David Southwood",
+    "version": "1.0.0",
+    "last_modified": "3/29/2024",
+    "description": "An expansive and meticulously designed dark theme for enhanced night-time readability and interface aesthetics."
+  },
+  "colors": {
+    "background": "#121212",
+    "foreground": "#E0E0E0",
+    "primary": "#BB86FC",
+    "secondary": "#03DAC6",
+    "error": "#CF6679",
+    "divider": "#2C2C2C",
+    "button": {
+      "background": "#333333",
+      "text": "#FFFFFF",
+      "hoverBackground": "#444444",
+      "disabledBackground": "#2C2C2C"
+    },
+    "treeview": {
+      "background": "#121212",
+      "text": "#E0E0E0",
+      "selectedBackground": "#333333"
+    },
+    "tabs": {
+      "background": "#121212",
+      "activeTabBackground": "#333333",
+      "inactiveTabBackground": "#2C2C2C"
+    },
+    "menu": {
+      "background": "#121212",
+      "text": "#E0E0E0",
+      "hoverBackground": "#2C2C2C",
+      "selectedBackground": "#333333"
+    }
+  },
+  "fonts": {
+    "default": ["Arial", 12],
+    "button": ["Arial", 12, "bold"],
+    "treeview": ["Consolas", 11],
+    "tabs": ["Arial", 12, "bold"]
+  },
+  "ttkStyles": {
+    "TButton": {
+      "configure": {
+        "background": "#333333",
+        "foreground": "#FFFFFF",
+        "font": ["Arial", 12, "bold"],
+        "borderwidth": 1,
+        "relief": "flat"
+      },
+      "map": {
+        "background": [{"active": "#444444"}, {"disabled": "#2C2C2C"}],
+        "foreground": [{"disabled": "#666666"}]
+      }
+    },
+    "TFrame": {
+      "configure": {
+        "background": "#121212"
+      }
+    },
+    "TLabel": {
+      "configure": {
+        "background": "#121212",
+        "foreground": "#E0E0E0",
+        "font": ["Arial", 12]
+      }
+    },
+    "Treeview": {
+      "configure": {
+        "background": "#121212",
+        "fieldbackground": "#121212",
+        "foreground": "#E0E0E0",
+        "font": ["Consolas", 11],
+        "borderwidth": 1,
+        "relief": "flat"
+      },
+      "map": {
+        "background": [{"selected": "#333333"}],
+        "foreground": [{"selected": "#E0E0E0"}]
+      }
+    },
+    "Notebook": {
+      "configure": {
+        "background": "#121212",
+        "tabmargins": [2, 5, 2, 0]
+      }
+    },
+    "Notebook.Tab": {
+      "configure": {
+        "padding": [5, 2],
+        "background": "#2C2C2C",
+        "foreground": "#E0E0E0",
+        "font": ["Arial", 12, "bold"]
+      },
+      "map": {
+        "background": [{"selected": "#333333"}, {"active": "#2C2C2C"}],
+        "foreground": [{"selected": "#E0E0E0"}, {"active": "#FFFFFF"}]
+      }
+    },
+    "ImageButton": {
+      "configure": {
+        "relief": "flat",
+        "borderwidth": 0,
+        "background": "#121212"
+      },
+      "map": {
+        "background": [{"active": "#2C2C2C"}, {"disabled": "#333333"}]
+      }
+    },
+    "TCheckbutton": {
+      "configure": {
+        "background": "#121212",
+        "foreground": "#E0E0E0",
+        "selectcolor": "#333333",
+        "font": ["Arial", 12]
+      }
+    },
+    "TRadiobutton": {
+      "configure": {
+        "background": "#121212",
+        "foreground": "#E0E0E0",
+        "selectcolor": "#333333",
+        "font": ["Arial", 12]
+      }
+    },
+    "TEntry": {
+      "configure": {
+        "background": "#333333",
+        "foreground": "#E0E0E0",
+        "fieldbackground": "#333333",
+        "insertbackground": "#E0E0E0",
+        "borderwidth": 1
+      }
+    },
+    "Horizontal.TScrollbar": {
+      "configure": {
+        "background": "#333333",
+        "arrowcolor": "#E0E0E0"
+      }
+    },
+    "Vertical.TScrollbar": {
+      "configure": {
+        "background": "#333333",
+        "arrowcolor": "#E0E0E0"
+      }
+    },
+    "TCombobox": {
+      "configure": {
+        "selectbackground": "#333333",
+        "fieldbackground": "#333333",
+        "background": "#121212",
+        "foreground": "#E0E0E0",
+        "arrowcolor": "#E0E0E0"
+      }
+    },
+    "TSpinbox": {
+      "configure": {
+        "background": "#333333",
+        "buttonbackground": "#333333",
+        "foreground": "#E0E0E0",
+        "buttondownrelief": "flat",
+        "buttonuprelief": "flat"
+      }
+    },
+    "Menubutton": {
+      "configure": {
+        "background": "#121212",
+        "foreground": "#E0E0E0",
+        "borderwidth": 1,
+        "relief": "raised"
+      },
+      "map": {
+        "background": [{"active": "#333333"}],
+        "foreground": [{"active": "#E0E0E0"}]
+      }
+    }
+  }
+}

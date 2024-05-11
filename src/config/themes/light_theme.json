@@ -1,0 +1,276 @@
+{
+  "theme_info": {
+    "name": "Light Theme",
+    "author": "David Southwood",
+    "version": "1.0.0",
+    "last_modified": "3/29/2024",
+    "description": "An enhanced light theme focusing on readability, usability, and modern aesthetics."
+  },
+  "colors": {
+    "background": "#F5F5F5",
+    "foreground": "#212121",
+    "primary": "#1976D2",
+    "secondary": "#FFC107",
+    "error": "#D32F2F",
+    "divider": "#E0E0E0",
+    "hoverText": "#1976D2",
+    "focusBorder": "#1976D2",
+    "invalidBorder": "#D32F2F",
+    "gradientStart": "#FFFFFF",
+    "gradientEnd": "#E0E0E0",
+    "button": {
+      "background": "#E0E0E0",
+      "text": "#000000",
+      "hoverBackground": "#CECECE",
+      "disabledBackground": "#F5F5F5",
+      "pressedBackground": "#BDBDBD"
+    },
+    "treeview": {
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "selectedBackground": "#B3E5FC",
+      "selectedText": "#005B9F",
+      "hoverBackground": "#E0F7FA"
+    },
+    "tabs": {
+      "background": "#E0E0E0",
+      "activeTabBackground": "#BDBDBD",
+      "inactiveTabBackground": "#F5F5F5",
+      "activeTabText": "#000000",
+      "inactiveTabText": "#757575"
+    },
+    "menu": {
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "hoverBackground": "#EEEEEE",
+      "selectedBackground": "#E0E0E0",
+      "selectedText": "#212121"
+    }
+  },
+  "fonts": {
+    "default": ["Helvetica", 12],
+    "button": ["Helvetica", 12, "bold"],
+    "treeview": ["Courier New", 10],
+    "tabs": ["Helvetica", 12, "bold"],
+    "menu": ["Helvetica", 12]
+  },
+  "ttkStyles": {
+    "TButton": {
+      "configure": {
+        "background": "#E0E0E0",
+        "foreground": "#000000",
+        "font": ["Helvetica", 12, "bold"],
+        "padding": 5
+      },
+      "map": {
+        "background": [
+          {"active": "#CECECE"},
+          {"pressed": "#BDBDBD"},
+          {"disabled": "#F5F5F5"},
+          {"hover": "#D6D6D6"},
+          {"focus": "#CECECE"},
+          {"invalid": "#FFCCCC"}
+        ],
+        "foreground": [
+          {"disabled": "#9E9E9E"},
+          {"hover": "#000000"},
+          {"focus": "#000000"},
+          {"invalid": "#660000"}
+        ]
+      }
+    },
+    "TFrame": {
+      "configure": {
+        "background": "#F5F5F5"
+      }
+    },
+    "TEntry": {
+      "configure": {
+        "background": "#F0F0F0",
+        "foreground": "#303030",
+        "bordercolor": "#C0C0C0"
+      },
+      "map": {
+        "fieldbackground": [
+          {"focus": "#FFFFFF"},
+          {"invalid": "#FFCCCC"}
+        ],
+        "foreground": [
+          {"focus": "#000000"},
+          {"invalid": "#660000"}
+        ],
+        "bordercolor": [
+          {"focus": "#1976D2"},
+          {"invalid": "#D32F2F"}
+        ]
+      }
+    },
+    "TProgressbar": {
+      "configure": {
+        "background": "#1976D2",
+        "troughcolor": "#BDBDBD",
+        "bordercolor": "transparent"
+      }
+    },
+    "TCombobox": {
+      "configure": {
+        "selectbackground": "#E0E0E0",
+        "fieldbackground": "#FFFFFF",
+        "background": "#F0F0F0",
+        "foreground": "#303030",
+        "arrowcolor": "#303030",
+        "bordercolor": "#C0C0C0",
+        "lightcolor": "#F5F5F5",
+        "darkcolor": "#BDBDBD"
+      }
+    },
+    "TSpinbox": {
+      "configure": {
+        "background": "#F0F0F0",
+        "buttonbackground": "#E0E0E0",
+        "foreground": "#303030",
+        "buttonarrowcolor": "#303030",
+        "bordercolor": "#C0C0C0",
+        "lightcolor": "#F5F5F5",
+        "darkcolor": "#BDBDBD"
+      }
+    },
+    "TLabel": {
+      "configure": {
+        "background": "#F5F5F5",
+        "foreground": "#212121",
+        "font": ["Helvetica", 12]
+      }
+    },
+    "Treeview": {
+      "configure": {
+        "background": "#FFFFFF",
+        "fieldbackground": "#FFFFFF",
+        "foreground": "#000000",
+        "font": ["Courier New", 10],
+        "borderwidth": 1,
+        "relief": "flat"
+      },
+      "map": {
+        "background": [
+          {"selected": "#B3E5FC"},
+          {"active": "#E0F7FA"}
+        ],
+        "foreground": [
+          {"selected": "#005B9F"}
+        ]
+      }
+    },
+    "Notebook": {
+      "configure": {
+        "background": "#E0E0E0",
+        "tabmargins": [2, 5, 2, 0]
+      },
+      "map": {
+        "background": [
+          {"selected": "#BDBDBD"},
+          {"!selected": "#F5F5F5"}
+        ],
+        "foreground": [
+          {"selected": "#000000"},
+          {"!selected": "#757575"}
+        ]
+      }
+    },
+    "Tab": {
+      "configure": {
+        "padding": [10, 2],
+        "background": "#E0E0E0",
+        "font": ["Helvetica", 12, "bold"]
+      },
+      "map": {
+        "background": [
+          {"selected": "#BDBDBD"},
+          {"!selected": "#F5F5F5"}
+        ],
+        "foreground": [
+          {"selected": "#000000"},
+          {"!selected": "#757575"}
+        ]
+      }
+    },
+    "ImageButton": {
+      "configure": {
+        "relief": "flat",
+        "borderwidth": 0,
+        "background": "#FFFFFF"
+      },
+      "map":{
+        "background": [
+          {"active": "#CECECE"},
+          {"pressed": "#BDBDBD"},
+          {"disabled": "#F5F5F5"}
+        ]
+      }
+    },
+    "TCheckbutton": {
+      "configure": {
+        "background": "#FFFFFF",
+        "foreground": "#000000",
+        "font": ["Helvetica", 12],
+        "padding": 5
+      },
+      "map": {
+        "background": [
+          {"active": "#E0E0E0"},
+          {"selected": "#CECECE"}
+        ],
+        "indicatorcolor": [
+          {"selected": "#1976D2"},
+          {"!selected": "#BDBDBD"}
+        ]
+      }
+    },
+    "TRadiobutton": {
+      "configure": {
+        "background": "#FFFFFF",
+        "foreground": "#000000",
+        "font": ["Helvetica", 12],
+        "padding": 5
+      },
+      "map": {
+        "background": [
+          {"active": "#E0E0E0"},
+          {"selected": "#CECECE"}
+        ],
+        "indicatorcolor": [
+          {"selected": "#1976D2"},
+          {"!selected": "#BDBDBD"}
+        ]
+      }
+    },
+    "Vertical.TScrollbar": {
+      "configure": {
+        "gripcount": 0,
+        "background": "#CECECE",
+        "darkcolor": "#E0E0E0",
+        "lightcolor": "#F5F5F5",
+        "troughcolor": "#BDBDBD",
+        "bordercolor": "#BDBDBD",
+        "arrowcolor": "#212121"
+      }
+    },
+    "Horizontal.TScale": {
+      "configure": {
+        "background": "#FFFFFF",
+        "troughcolor": "#E0E0E0",
+        "sliderlength": 20,
+        "sliderrelief": "flat"
+      }
+    }
+  },"icons": {
+    "save": "path/to/save_icon.svg",
+    "open": "path/to/open_icon.svg"
+  },
+    "highContrast": {
+    "background": "#000000",
+    "foreground": "#FFFFFF",
+    "primary": "#FFFF00",
+    "secondary": "#00FFFF"
+  }
+}
